@@ -27,12 +27,14 @@ class MinStack {
     }
     
     public int top() {
-        return this.st.peek();
+       // return this.st.peek();
+        return st.peek();
         
     }
     
     public int getMin() {
-        return this.min;
+      //  return this.min;
+        return min;
         
     }
 }
