@@ -1,24 +1,26 @@
-class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-        if (strs == null || strs.length == 0) {
-            return null;
-        }
+ class Solution {
+public List<List<String>> groupAnagrams(String[] s)
+{
+ List<List<String>> result= new ArrayList<>(); //creating an array list to store the similar string
 
-        Map<String, List<String>> map = new HashMap<>();
-        for (String word : strs) {
-            String currMap = countCharacter(word);
-           
-            map.computeIfAbsent(currMap, x -> new ArrayList<>()).add(word);
-        }
+    if (s== null || s.length==0) return result;// checking if the string length is zero or if string is null
 
-        return new ArrayList<>(map.values());
+    HashMap<String, List<String>> map=new HashMap<>(); //. create a hashmap to store both the key and value 
+
+    for (int i=0;i<s.length;i++)   // iterate through the String to get the small string in each index to preform the operation
+    {
+        String str=s[i];            //initialising a string to get a strings from each position of big string
+        char[] charArr=str.toCharArray();// convrting tis small string to character array 
+        Arrays.sort(charArr);   // Sorting this array
+        String sorted=String.valueOf(charArr);  //after sorting converting back to string 
+        if(!map.containsKey(sorted))   // checking if this sorted string present in map or not 
+        {
+            map.put(sorted, new ArrayList<>()); // if not present we are putting this to map
+
+        }
+        map.get(sorted).add(str);// else if the string already present then we wll add this to arraylist
+
     }
-
-    public String countCharacter(String str) {
-        int[] map = new int[26];
-        for (char c : str.toCharArray()) {
-            map[c - 'a']++;
-        }
-        return Arrays.toString(map);
-    }
+    return new ArrayList<>(map.values());
+}
 }
