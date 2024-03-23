@@ -16,8 +16,8 @@ public class Solution {
 
         // If there's no cycle, return null
         if (fast == null || fast.next == null) {
-            return null;
-        }
+           return null;
+       }
 
         // Step 2: Find the start of the cycle
         // Reset one pointer to the head and move both pointers at the same speed until they meet
