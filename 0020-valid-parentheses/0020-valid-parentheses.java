@@ -1,28 +1,32 @@
 class Solution {
+     
     public boolean isValid(String s) {
- 
-        Stack<Character> LeftSymbols =new Stack<>();
-
-        for (char c :s.toCharArray()){
-
-            if (c=='(' || c=='{' || c== '['){
-                LeftSymbols.push(c);
-            }
-         else if (c== ')' && !LeftSymbols.isEmpty() && LeftSymbols.peek()=='(' ){
-             LeftSymbols.pop();
-         }
-            else if (c== '}' && !LeftSymbols.isEmpty() && LeftSymbols.peek()=='{' ){
-             LeftSymbols.pop();
-         }
-            else if (c== ']' && !LeftSymbols.isEmpty() && LeftSymbols.peek()=='[' ){
-             LeftSymbols.pop();
-         }
-         else {
-             return false;
-         }
-        }
-
-    return LeftSymbols.isEmpty();
         
+        HashMap<Character, Character> mappedBrackets = new HashMap<>();
+        
+        mappedBrackets.put(')','(');
+        mappedBrackets.put('}','{');
+        mappedBrackets.put(']','[');
+        
+        Stack<Character>  stack = new Stack<>();
+        
+        for(int i=0; i<s.length(); i++){
+            char c = s.charAt(i);
+            
+            if(!mappedBrackets.containsKey(c)){
+                stack.push(c);
+            }
+            else{
+                if(stack.isEmpty()){
+                    return false;
+                }
+                char topElement = stack.pop();
+                if(topElement != mappedBrackets.get(c)){
+                    return false;
+                }
+            }
+        }
+        
+        return stack.isEmpty();
     }
 }
