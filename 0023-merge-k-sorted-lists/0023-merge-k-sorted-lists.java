@@ -1,41 +1,38 @@
-class Solution {
-    public ListNode mergeKLists(ListNode[] lists) {
-        if (lists == null || lists.length == 0) {
-            return null;
-        }
-        return mergeKListsHelper(lists, 0, lists.length - 1);
-    }
-    
-    private ListNode mergeKListsHelper(ListNode[] lists, int start, int end) {
-        if (start == end) {
-            return lists[start];
-        }
-        if (start + 1 == end) {
-            return merge(lists[start], lists[end]);
-        }
-        int mid = start + (end - start) / 2;
-        ListNode left = mergeKListsHelper(lists, start, mid);
-        ListNode right = mergeKListsHelper(lists, mid + 1, end);
-        return merge(left, right);
-    }
-    
-    private ListNode merge(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
-        ListNode curr = dummy;
+//brute:
+// add all the elements to single list and sort the list:
+//TC=O(nlogn),, SC=O(n)
+//2nd approach:
+//taking three pointers comparing each for lesser and adding them one by one to new list;
+//TC:O(n X K), k=no of lists.   
+//optimized:
+// using min heap priority queue:will sort  the elements and will put this in a different list and will 
+// print the first element 
+//TC:O(nlogn) we have to put n  elements  in sorted order in new list
+//We initialize the priority queue with the first node of each of the K lists.
+//Adding each node to the priority queue takes O(log K) time
+// for adding k number of lists take O(k log k) time
+// SC: O(n) since we use additional priority queue
+
+
+class Solution{
+    public ListNode mergeKLists(ListNode[] lists){
+        PriorityQueue<Integer> minHeap= new PriorityQueue<>();
         
-        while (l1 != null && l2 != null) {
-            if (l1.val < l2.val) {
-                curr.next = l1;
-                l1 = l1.next;
-            } else {
-                curr.next = l2;
-                l2 = l2.next;
+        for (ListNode list:lists){
+            while(list!=null){
+                minHeap.add(list.val);
+                list=list.next;
             }
-            curr = curr.next;
         }
-        
-        curr.next = (l1 != null) ? l1 : l2;
-        
+        // take all the elements from minheap and put it inside the mergelist
+        //create a dummy node to hold the head since we missout 
+        ListNode dummy=new ListNode(1);
+        ListNode merge=dummy;
+        while (!minHeap.isEmpty()){
+            merge.next=new ListNode(minHeap.remove());
+            merge=merge.next;
+        }
         return dummy.next;
+        
     }
 }
