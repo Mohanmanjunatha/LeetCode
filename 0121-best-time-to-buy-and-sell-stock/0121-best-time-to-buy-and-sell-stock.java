@@ -1,18 +1,31 @@
+// class Solution {
+//     public int maxProfit(int[] prices) {
+//         int maxpro=0;
+
+//         for (int i=0;i<prices.length-1;i++){
+//             for (int j=i+1;j<prices.length;j++){
+//                 int profit =prices[j]-prices[i];
+//                 if (profit>maxpro)
+//                 maxpro=profit;
+//             }
+//         }
+//         return maxpro;
+//     }
+// }
+
 class Solution {
     public int maxProfit(int[] prices) {
-        int lsf = Integer.MAX_VALUE;
-        int op = 0;
-        int pist = 0;
-        
-        for(int i = 0; i < prices.length; i++){
-            if(prices[i] < lsf){
-                lsf = prices[i];
-            }
-            pist = prices[i] - lsf;
-            if(op < pist){
-                op = pist;
+        int minprice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minprice) {
+                minprice = prices[i];  // Update minprice if the current price is lower
+            } else {
+                maxProfit = Math.max(maxProfit, prices[i] - minprice);  // Calculate profit and update maxProfit
             }
         }
-        return op;
+
+        return maxProfit;  // Return the maximum profit found
     }
 }
