@@ -20,43 +20,33 @@
 // class Solution{
     
 // }
-
+    //numbers{1,8,2,15,5}
+    //target[13]
+    // will take the first element subtract it with target and see if difference matches any element then 
+    // those 2 elements will be the pair
 class Solution {
-
- 
-
 public int[] twoSum(int[] nums, int target) {
+    HashMap<Integer,Integer> map=new HashMap<>();
 
- 
+    for (int i=0;i<nums.length;i++){
+        int curr=nums[i];
+        int diff=target-curr;
 
-HashMap<Integer, Integer> map = new HashMap<>();
+        if (map.containsKey(diff)){
+            return new int[]{map.get(diff),i};
 
- 
+        }
 
-for (int i = 0; i < nums.length; i++) 
+        map.put(curr,i);
 
-{
+    }
 
-int num = nums[i];
-
-int diff = target - num;
-
-if (map.containsKey(diff)) 
-
-{
-
-return new int[] { map.get(diff), i };
-
-}
-
-map.put(num, i);
-
-}
 
 return new int[] {};
 
-}
 
+
+}
 }
 
 
