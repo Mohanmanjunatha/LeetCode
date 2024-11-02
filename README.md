@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
+| [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
@@ -24,4 +25,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0088-merge-sorted-array) |
+| [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 <!---LeetCode Topics End-->
