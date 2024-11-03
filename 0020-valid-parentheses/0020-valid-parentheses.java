@@ -1,32 +1,23 @@
 class Solution {
-
     public boolean isValid(String s) {
 
-        HashMap<Character, Character> mappedBrackets = new HashMap<>();
-
-        mappedBrackets.put(')', '(');
-        mappedBrackets.put('}', '{');
-        mappedBrackets.put(']', '[');
-
-        Stack<Character> stack = new Stack<>();
-
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-
-            if (!mappedBrackets.containsKey(c)) { // Checking if it's an open bracket, then add it to stack
-                stack.push(c); // If it's not open, then it must be a closed bracket
-            } else {
-                // We check here since to push a closed bracket, there must be an open present. If not, exit
-                if (stack.isEmpty()) {
-                    return false;
-                }
-
-                char topElement = stack.pop();
-                if (topElement != mappedBrackets.get(c)) { // Use equality operator here
-                    return false;
-                }
-            }
+                if (s.isEmpty()) {
+            return true;
         }
-        return stack.isEmpty(); // It should be empty at the end
+
+        // Loop until no more pairs can be found
+        int length;
+        do {
+            length = s.length();
+            // Remove all pairs from the string
+            s = s.replace("()", "")
+                 .replace("{}", "")
+                 .replace("[]", "");
+        } while (length != s.length());  // Continue until length no longer changes
+
+        // If the final string is empty, it means all pairs were matched correctly
+        return s.isEmpty();
     }
+        
+    
 }
