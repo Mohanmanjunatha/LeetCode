@@ -1,30 +1,40 @@
 class LRUCache {
+    class Node{
+        int key;
+        int value;
+        public Node(int key, int value){
+            this.key=key;
+            this.value=value;
+        }
+    }
+
+    LinkedList<Node> list;
+    Map<Integer, Node> map;
     int capacity;
-    LinkedHashMap<Integer, Integer> dic;
-
     public LRUCache(int capacity) {
-        this.capacity = capacity;
-        dic = new LinkedHashMap<>(5, 0.75f, true) {
-            @Override
-            protected boolean removeEldestEntry(
-                Map.Entry<Integer, Integer> eldest
-            ) {
-                return size() > capacity;
-            }
-        };
+        this.capacity=capacity;
+        map=new HashMap<>();
+        list=new LinkedList<>();
     }
-
+    
     public int get(int key) {
-        return dic.getOrDefault(key, -1);
+        if(map.containsKey(key)){
+            Node cur=map.get(key);
+            list.remove(cur);
+            list.addFirst(cur);
+            map.put(key, cur);
+            return cur.value;
+        }
+        return -1;
     }
-
+    
     public void put(int key, int value) {
-        dic.put(key, value);
+        if(map.containsKey(key)) list.remove(map.get(key));
+        list.addFirst(new Node(key, value));
+        map.put(key, list.peekFirst());
+        if(list.size()>capacity){
+            int deletedKey=list.removeLast().key;
+            map.remove(deletedKey);
+        }
     }
 }
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
