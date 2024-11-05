@@ -1,6 +1,5 @@
-// Example with 12321:
-// After reversing half, we get x = 12 and revertedNumber = 123.
-// Since x == revertedNumber / 10 (12 == 123 / 10), we confirm it’s a palindrome.
+// we need temp,reversed and digit remember and also need 3 edge cases 
+
 
 class Solution {
     public boolean isPalindrome(int x) {
