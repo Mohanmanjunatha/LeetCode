@@ -1,64 +1,25 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        
-        if(s == null || s.length()==0){
-            return 0;
-        }
-        
-        if(s.length() == 1){
-            return 1;
-        }
-        
-        int left = 0;
-        int right = 0;
-        int ans = 0;
-        
-        HashSet<Character> set = new HashSet<>();
-        
-        while(right < s.length()){
-            char c = s.charAt(right);
-            while(set.contains(c)){
-                set.remove(s.charAt(left));
-                left++;
+        HashMap<Character, Integer> map = new HashMap<>();
+        int maxLength = 0;
+        int start = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            char ca = s.charAt(i);
+
+            // If character is already in the map, update the start to the next position after its last occurrence
+            if (map.containsKey(ca)) {
+                start = Math.max(start, map.get(ca) + 1);
             }
-            set.add(c);
-            ans = Math.max(ans, right-left + 1);
-            right++;
+
+            // Update the character's position in the map
+            map.put(ca, i);
+
+            // Calculate the length of the current substring and update maxLength
+            maxLength = Math.max(maxLength, i - start + 1);
         }
-        
-        return ans;
+
+        return maxLength;
     }
 }
 
-
-
-
-
-
-
-
-
-
-// class Solution {
-//     public int lengthOfLongestSubstring(String s) {
-//         int n = s.length();
-//         int maxLength = 0;
-//         Set<Character> charSet = new HashSet<>();
-//         int left = 0;
-        
-//         for (int right = 0; right < n; right++) {
-//             if (!charSet.contains(s.charAt(right))) {
-//                 charSet.add(s.charAt(right));
-//                 maxLength = Math.max(maxLength, right - left + 1);
-//             } else {
-//                 while (charSet.contains(s.charAt(right))) {
-//                     charSet.remove(s.charAt(left));
-//                     left++;
-//                 }
-//                 charSet.add(s.charAt(right));
-//             }
-//         }
-        
-//         return maxLength;
-//     }
-// }
