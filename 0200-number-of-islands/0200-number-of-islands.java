@@ -1,38 +1,32 @@
 class Solution {
-    private final int[] delRow = {1, -1, 0, 0};
-    private final int[] delCol = {0, 0, -1, 1};
-
+    int count=0;
     public int numIslands(char[][] grid) {
-        int island = 0;
-        int n = grid.length;
-        int m = grid[0].length;
-        int[][] vis = new int[n][m];
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == '1' && vis[i][j] == 0) {
-                    island++;
-                    dfs(grid, vis, n, m, i, j);
+        
+        for( int i=0;i<grid.length;i++){
+            for( int j=0;j<grid[i].length;j++){
+                if(grid[i][j]=='1'){
+                   dfs(grid,i,j);
+                    count++; 
                 }
             }
         }
-        return island;
+        return count;
     }
+    
+    
+    public void dfs(char [][] grid, int r, int c){
+        
+       //boundary conditions 
+       if(r<0 || r>= grid.length || c<0 || c>= grid[0].length || grid[r][c] == 'v' || grid[r][c] == '0') return;
+    
+        //mark it visited
+        grid[r][c] = 'v';
 
-    private void dfs(char[][] grid, int[][] vis, int n, int m, int row, int col) {
-        if (row < 0 || row >= n || col < 0 || col >= m || vis[row][col] == 1) {
-            return;
-        }
+        //look in all 4 directions
+        dfs(grid,r+1,c);
+        dfs(grid,r-1,c);
+        dfs(grid,r,c+1);
+        dfs(grid,r,c-1);
 
-        vis[row][col] = 1;
-
-        for (int i = 0; i < 4; i++) {
-            int nRow = row + delRow[i];
-            int nCol = col + delCol[i];
-
-            if (nRow >= 0 && nRow < n && nCol >= 0 && nCol < m && grid[nRow][nCol] == '1' && vis[nRow][nCol] == 0) {
-                dfs(grid, vis, n, m, nRow, nCol);
-            }
-        }
     }
 }
