@@ -1,36 +1,23 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-public class Solution {
+class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        int target = 0;
-        Arrays.sort(nums);
-        Set<List<Integer>> set = new HashSet<>();
-        List<List<Integer>> output = new ArrayList<>();
-        
-        for (int i = 0; i < nums.length; i++) {
-            int j = i + 1;
-            int k = nums.length - 1;
-            
-            while (j < k) {
-                int sum = nums[i] + nums[j] + nums[k];
-                
-                if (sum == target) {
-                    set.add(Arrays.asList(nums[i], nums[j], nums[k]));
-                    j++;
-                    k--;
-                } else if (sum < target) {
-                    j++;
-                } else {
-                    k--;
+        Set<List<Integer>> res = new HashSet<>();
+        Set<Integer> dups = new HashSet<>();
+        Map<Integer, Integer> seen = new HashMap<>();
+        for (int i = 0; i < nums.length; ++i) if (dups.add(nums[i])) {
+            for (int j = i + 1; j < nums.length; ++j) {
+                int complement = -nums[i] - nums[j];
+                if (seen.containsKey(complement) && seen.get(complement) == i) {
+                    List<Integer> triplet = Arrays.asList(
+                        nums[i],
+                        nums[j],
+                        complement
+                    );
+                    Collections.sort(triplet);
+                    res.add(triplet);
                 }
+                seen.put(nums[j], i);
             }
         }
-        
-        output.addAll(set);
-        return output;
+        return new ArrayList(res);
     }
 }
