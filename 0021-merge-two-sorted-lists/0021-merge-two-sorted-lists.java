@@ -1,38 +1,47 @@
-//create 3 list
-// craete two pointers
-//compare each pointer and check which one is less and add it to 3rd list
-// base case when both aree of same add them both and icremeent both the pointers 
-//we create a dummy node since we need to return the head
-//we need to assign this as head and then start adding values to the third list
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 
+ // check for both list if empty
+ // now compare each element using two pointers 
+ // the element which is small will be added 
+ //
 
-class Solution{
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2){
-        ListNode Dummy=new ListNode(1);
-        ListNode merge=Dummy;
-        
+class Solution {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+
+        ListNode dummy=new ListNode(0);
+        ListNode tail=dummy;
         while(list1!=null && list2!=null){
-            if(list1.val<=list2.val){
-                merge.next=list1;
+            if (list1.val<list2.val){
+
+                tail.next=list1;
                 list1=list1.next;
-                
+                tail=tail.next;
             }
             else{
-                merge.next=list2;
+                tail.next=list2;
                 list2=list2.next;
-                
+                tail=tail.next;
             }
-            merge=merge.next;
+            //tail=tail.next;
+
         }
+        if(list1!=null){
+            tail.next=list1;
+        }
+        else {
+            tail.next=list2;
+        }
+
+return dummy.next;
         
-        if (merge.next==list1 && list1==null){
-            merge.next=list2;
-            
-        }
-        else{
-            merge.next=list1;
-        }
-        return Dummy.next;
     }
-    
 }
