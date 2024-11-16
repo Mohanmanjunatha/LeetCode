@@ -1,7 +1,11 @@
-//we add everything to map
-//check for each value and make a loop and print them
-// create one more loop to print rest
-
+//Hashmap to store all elements and their frequesncy
+//loop through map to find the string using compare in hashmap and their frequesncy
+// using that freq append them in an array
+// remove that elements that has been added
+//we iterate through key set toadd rest elements to array using append 
+// its like getting each string
+//finding that string in hashmap and getting its frequesncy 
+// using that freq and looping to append that many characters
 class Solution {
     public String customSortString(String order, String s) {
         HashMap<Character , Integer> map = new HashMap<>();
@@ -23,7 +27,6 @@ class Solution {
             }
 
         }
-
 
         for (char c:map.keySet()){
             int count=map.get(c);
