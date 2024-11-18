@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0134-gas-station) |
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 ## Two Pointers
 |  |
 | ------- |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 ## Greedy
 |  |
 | ------- |
