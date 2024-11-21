@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0146-lru-cache) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
 ## String
 |  |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0079-word-search) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
+| [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
 | [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
@@ -29,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
 ## Array
 |  |
@@ -116,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0134-gas-station) |
+| [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 ## Recursion
 |  |
 | ------- |
@@ -129,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -137,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 ## Quickselect
 |  |
 | ------- |
