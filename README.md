@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0079-word-search) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
 | [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -157,14 +159,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
 ## Backtracking
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0079-word-search) |
+| [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
