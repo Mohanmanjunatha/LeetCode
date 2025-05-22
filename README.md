@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0049-group-anagrams) |
 | [0146-lru-cache](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0146-lru-cache) |
+| [0217-contains-duplicate](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0383-ransom-note) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0134-gas-station) |
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 ## Two Pointers
