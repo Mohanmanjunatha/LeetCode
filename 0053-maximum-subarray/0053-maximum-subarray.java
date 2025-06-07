@@ -1,20 +1,40 @@
-class Solution {
-    public int maxSubArray(int[] nums) {
-        int maxSum = Integer.MIN_VALUE;
-        int currentSum = 0;
+// class Solution {
+//     public int maxSubArray(int[] nums) {
+//         int currsum=0;
+//         int maxSum=nums[0];
+
+//         for (int i=0;i<nums.length;i++){
+//             if (currsum<0){
+//                 currsum=0;
+//             }
+//             currsum=currsum+nums[i];
+//             maxSum=Math.max(currsum,maxSum);
+
+//         }
+//         return maxSum;
         
-        for (int i = 0; i < nums.length; i++) {
-            currentSum += nums[i];
-            
-            if (currentSum > maxSum) {
-                maxSum = currentSum;
+//     }
+// }
+
+
+class Solution{
+    public int maxSubArray(int[] nums){
+
+        int currsum=0;
+        int currMax=nums[0];
+
+        for (int i=0;i<nums.length;i++){
+            if (currsum<0){
+                currsum=0;
+
             }
-            
-            if (currentSum < 0) {
-                currentSum = 0;
-            }
+            currsum+=nums[i];
+            currMax=Math.max(currsum,currMax);
+
         }
-        
-        return maxSum;
+
+        return currMax;
+
+
     }
 }
