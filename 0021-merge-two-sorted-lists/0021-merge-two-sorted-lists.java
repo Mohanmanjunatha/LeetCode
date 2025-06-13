@@ -1,47 +1,20 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 
- // check for both list if empty
- // now compare each element using two pointers 
- // the element which is small will be added 
- //
 
-class Solution {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-
-        ListNode dummy=new ListNode(0);
-        ListNode tail=dummy;
-        while(list1!=null && list2!=null){
-            if (list1.val<list2.val){
-
-                tail.next=list1;
-                list1=list1.next;
-                tail=tail.next;
-            }
-            else{
-                tail.next=list2;
-                list2=list2.next;
-                tail=tail.next;
-            }
-            //tail=tail.next;
-
+class Solution{
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2){
+        if (list1==null){
+            return list2;
+        }// reccursion we have used here 
+        if (list2==null){
+            return list1;
+        }// list1 continues with its next value in next loop
+        if (list1.val<=list2.val){
+            list1.next=mergeTwoLists(list1.next, list2);
+            return list1;
+        }// list continues adding with its next value and the list 1 
+        else{
+            list2.next=mergeTwoLists(list1,list2.next);
+            return list2;
         }
-        if(list1!=null){
-            tail.next=list1;
-        }
-        else {
-            tail.next=list2;
-        }
-
-return dummy.next;
-        
     }
 }
