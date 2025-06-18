@@ -10,13 +10,9 @@ class Solution {
             List<Integer> row =new ArrayList<>();
             for (int j=0;j<res.get(i-1).size()+1;j++){
                 row.add(temp.get(j)+ temp.get(j+1));
-
             }
-
                 res.add(row);
         }
-
         return res;
-        
     }
 }
