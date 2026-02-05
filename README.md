@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
+| [0252-meeting-rooms](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0252-meeting-rooms) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0252-meeting-rooms](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0252-meeting-rooms) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
