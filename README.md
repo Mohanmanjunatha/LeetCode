@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0268-missing-number) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0146-lru-cache) |
+| [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0268-missing-number) |
+| [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 ## Tree
 |  |
@@ -240,4 +243,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1401-circle-and-rectangle-overlapping) |
+## Queue
+|  |
+| ------- |
+| [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
+## Data Stream
+|  |
+| ------- |
+| [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 <!---LeetCode Topics End-->
