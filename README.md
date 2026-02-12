@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
 ## Union Find
 |  |
 | ------- |
@@ -251,4 +253,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
+## Union-Find
+|  |
+| ------- |
+| [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
+## Graph Theory
+|  |
+| ------- |
+| [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
 <!---LeetCode Topics End-->
