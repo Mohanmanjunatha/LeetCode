@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Union Find
 |  |
 | ------- |
@@ -266,10 +268,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Graph Theory
 |  |
 | ------- |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Trie
 |  |
 | ------- |
