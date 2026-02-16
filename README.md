@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
+| [1041-robot-bounded-in-circle](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1041-robot-bounded-in-circle) |
 | [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0009-palindrome-number) |
 | [0029-divide-two-integers](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0029-divide-two-integers) |
 | [0268-missing-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0268-missing-number) |
+| [1041-robot-bounded-in-circle](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1041-robot-bounded-in-circle) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1401-circle-and-rectangle-overlapping) |
 ## Monotonic Stack
 |  |
@@ -278,4 +280,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
+## Simulation
+|  |
+| ------- |
+| [1041-robot-bounded-in-circle](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1041-robot-bounded-in-circle) |
 <!---LeetCode Topics End-->
