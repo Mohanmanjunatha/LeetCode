@@ -9,13 +9,10 @@ class Solution {
             else {
                 balance--;
             }
-
             if (balance==0){
                 ans++;
             }
-
         }
         return ans;
-        
     }
 }
