@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
 | [1041-robot-bounded-in-circle](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1041-robot-bounded-in-circle) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0134-gas-station) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 ## Recursion
 |  |
 | ------- |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0383-ransom-note) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 ## Quickselect
 |  |
 | ------- |
