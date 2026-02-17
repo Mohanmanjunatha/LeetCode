@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
 ## String
 |  |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
 ## Two Pointers
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0443-string-compression](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0443-string-compression) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
@@ -125,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0146-lru-cache) |
 | [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 ## Doubly-Linked List
 |  |
 | ------- |
