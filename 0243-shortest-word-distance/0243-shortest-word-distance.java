@@ -15,3 +15,5 @@ class Solution {
         return minDistance;
     }
 }
+// we just have to find the poition ofn both the words / then find the basolute value 
+
