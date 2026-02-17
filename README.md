@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
+| [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Union Find
@@ -176,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0200-number-of-islands) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 ## Sliding Window
 |  |
 | ------- |
@@ -280,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Graph Theory
