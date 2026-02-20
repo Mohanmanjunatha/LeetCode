@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0818-race-car](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0818-race-car) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
 ## Stack
 |  |
 | ------- |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0134-gas-station) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 ## Recursion
 |  |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
 ## Bucket Sort
 |  |
 | ------- |
