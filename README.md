@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
 ## Two Pointers
 |  |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Linked List
 |  |
 | ------- |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Depth-First Search
 |  |
 | ------- |
