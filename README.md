@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0359-logger-rate-limiter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0383-ransom-note](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0383-ransom-note) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0146-lru-cache) |
+| [0359-logger-rate-limiter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 ## Doubly-Linked List
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0359-logger-rate-limiter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0362-design-hit-counter) |
 ## Union-Find
 |  |
