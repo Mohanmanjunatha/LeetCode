@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0243-shortest-word-distance](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0243-shortest-word-distance) |
 | [0252-meeting-rooms](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0268-missing-number) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0253-meeting-rooms-ii](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0443-string-compression](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0443-string-compression) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
@@ -199,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0134-gas-station) |
+| [0253-meeting-rooms-ii](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0611-valid-triangle-number](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -220,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
@@ -275,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
 ## Bit Manipulation
 |  |
