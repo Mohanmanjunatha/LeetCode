@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0317-shortest-distance-from-all-buildings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 | [0886-possible-bipartition](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0886-possible-bipartition) |
+| [1197-minimum-knight-moves](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1197-minimum-knight-moves) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Union Find
 |  |
