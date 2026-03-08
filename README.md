@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
+| [1436-destination-city](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1436-destination-city) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [2121-intervals-between-identical-elements](https://github.com/Mohanmanjunatha/LeetCode/tree/master/2121-intervals-between-identical-elements) |
 ## String
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0807-custom-sort-string) |
 | [1041-robot-bounded-in-circle](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1041-robot-bounded-in-circle) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
+| [1436-destination-city](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1436-destination-city) |
 | [1894-merge-strings-alternately](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0695-max-area-of-island) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Mohanmanjunatha/LeetCode/tree/master/0871-minimum-number-of-refueling-stops) |
+| [1436-destination-city](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1436-destination-city) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1755-defuse-the-bomb](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/Mohanmanjunatha/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
